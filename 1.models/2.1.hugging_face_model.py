@@ -9,7 +9,7 @@ model = HuggingFaceEndpoint(
     temperature=0
 )
 
-llm = ChatHuggingFace(llm=model, verbose=True)
+llm = ChatHuggingFace(llm=model)
 
 result = llm.invoke(input="What are the most spoken languages in the world?")
 
