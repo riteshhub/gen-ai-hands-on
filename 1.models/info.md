@@ -27,5 +27,5 @@ uv add python-dotenv transformers torch langchain-huggingface langchain-ollama d
 HUGGINGFACEHUB_API_TOKEN=xxxxx
 DATABRICKS_HOST=xxxxx.cloud.databricks.com
 DATABRICKS_TOKEN=xxxxx
-GEMINI_API_KEY=xxxxx
+GOOGLE_API_KEY=xxxxx
 ```
