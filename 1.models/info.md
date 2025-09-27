@@ -20,11 +20,12 @@ https://python.langchain.com/docs/integrations/text_embedding/
 ## Prerequisite
 #### Install below libraries for this module
 ```
-uv add python-dotenv transformers torch langchain-huggingface langchain-ollama databricks-langchain hf-xet
+uv add python-dotenv transformers torch langchain-huggingface langchain-ollama databricks-langchain langchain[google-genai] hf-xet
 ```
 #### Set environment variables in .env file
 ```
 HUGGINGFACEHUB_API_TOKEN=xxxxx
 DATABRICKS_HOST=xxxxx.cloud.databricks.com
 DATABRICKS_TOKEN=xxxxx
+GEMINI_API_KEY=xxxxx
 ```
