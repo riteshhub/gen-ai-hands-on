@@ -19,9 +19,9 @@ llm = ChatGoogleGenerativeAI(
 parser = PydanticOutputParser(pydantic_object=PlayerScore)
 
 prompt = PromptTemplate(
-    template="Provide name and runs scored by {player} in ODI cricket \n{format_instruction}",
+    template="Provide name and runs scored by {player} in ODI cricket \n{awehi}",
     input_variables=['player'],
-    partial_variables={"format_instruction": parser.get_format_instructions()}
+    partial_variables={"awehi": parser.get_format_instructions()}
 )
 
 chain = prompt | llm | parser
